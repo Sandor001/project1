@@ -1,49 +1,16 @@
 #include <iostream>
 
 using namespace std;
-
 int main()
 
 {
 
-int a, b, c;
+	int a = 1, b = 1, c;
 
-cout << "Please enter three numbers) \n";
+	if (c = (a - b))// умова не виконається тому шо значення буде дорівнювати 0 
 
-cout << "a: ";
+    	cout << "The value of c is: " << c;
 
-cin >> a;
-
-cout << "\nb: ";
-
-cin >> b;
-
-cout << "\nc: ";
-
-cin >> c;
-
-if (c == (a - b))
-
-{
-
-     cout << "\na: ";
-
-     cout << a;
-
-     cout << " minus b: ";
-
-     cout << b;
-
-     cout << " equals c: ";
-
-     cout << c << endl;
-
-}
-
-else
-
-     cout << "a - b does not equal c: " << endl;
-
-return 0;
+	return 0;
 
 }
