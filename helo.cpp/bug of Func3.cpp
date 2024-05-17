@@ -6,10 +6,17 @@ int myFunc(unsigned short int x);
 int main()
 {
     unsigned short int x, y;
-    int myFunc (x=y);
+    int myFunc (x =y);
     cout << "x: " << x << " y: " << y << "\n";
+    return (4*x);
 }
 
-int myFunc(unsigned short int x);
 
-    
+ 
+
+
+
+   
+
+   
+       
